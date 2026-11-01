@@ -1,0 +1,9 @@
+# Run artifacts produced by refusal_eval.py — never commit these
+runs/
+*.summary.json
+s6-*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
